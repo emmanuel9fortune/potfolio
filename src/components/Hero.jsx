@@ -3,7 +3,7 @@ import { portfolio } from "../data/portfolio";
 
 export default function Hero() {
   return (
-    <section className="portfolio-grid relative min-h-screen overflow-hidden">
+    <section className="portfolio-grid relative min-h-screen overflow-hidden bg-[#0A0A0A] text-[#F5F3EE]">
       {/* Background glow */}
       <div className="pointer-events-none absolute inset-0">
         <div className="absolute left-[55%] top-[35%] h-[500px] w-[500px] -translate-x-1/2 rounded-full bg-white/[0.025] blur-3xl" />
@@ -41,7 +41,7 @@ export default function Hero() {
                 Building
               </span>
 
-              <span className="block text-white/25">
+              <span className="block text-[#D99A4E]">
                 digital
               </span>
 

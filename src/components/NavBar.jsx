@@ -14,7 +14,7 @@ export default function Navbar() {
 
   return (
     <header className="fixed left-0 top-0 z-50 w-full px-5 py-5">
-      <nav className="mx-auto flex max-w-7xl items-center justify-between rounded-full border border-white/10 bg-black/70 px-5 py-3 backdrop-blur-xl">
+      <nav className="mx-auto flex max-w-7xl items-center justify-between rounded-[15px] border border-white/10 bg-black/70 px-5 py-3 backdrop-blur-xl">
         <a
           href="#"
           className="text-sm font-bold tracking-tight text-white"

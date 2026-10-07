@@ -36,14 +36,14 @@ export default function Contact() {
             </div>
 
             {/* Heading */}
-            <h2 className="mt-8 w-full text-[clamp(3.5rem,8vw,8rem)]  font-semibold leading-[0.88] tracking-[-0.07em] text-black">
+            <p className="mt-8 pb-10 w-full text-[70px] font-bold leading-[60px]">
               Let's build
               <br />
-              something great.
-            </h2>
+                <span className="text-[#D99A4E]"> something great.</span>
+            </p>
 
             {/* Description */}
-            <p className="mt-8 w-full text-base leading-[60px] text-black/50 text-[60px] font-bold">
+            <p className="mt-8 w-full text-base leading-[30px] text-black/50 text-[20px] font-semibold">
               Have an idea, project, or product you'd like to bring to life? <br/>
               I'm always interested in working on meaningful digital
               experiences.

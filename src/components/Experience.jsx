@@ -88,8 +88,8 @@ export default function Experience() {
       className="relative overflow-hidden bg-black px-6 py-28 text-white sm:px-10 lg:px-16"
     >
       {/* Background detail */}
-      <div className="pointer-events-none absolute right-[-10rem] top-20 h-[30rem] w-[30rem] rounded-full border border-white/[0.04]" />
-      <div className="pointer-events-none absolute right-[-5rem] top-40 h-[20rem] w-[20rem] rounded-full border border-white/[0.04]" />
+      <div className="pointer-events-none absolute right-[-10rem] top-20 h-[30rem] w-[30rem] rounded-full border border-[#D99A4E]/2" />
+      <div className="pointer-events-none absolute right-[-5rem] top-40 h-[20rem] w-[20rem] rounded-full border border-[#D99A4E]/2" />
 
       <div className="relative mx-auto max-w-7xl">
         {/* Header */}
@@ -127,14 +127,14 @@ export default function Experience() {
             return (
               <article
                 key={item.title}
-                className={`group relative border-b border-white/10 py-10 transition-all duration-500 hover:bg-white/[0.025] lg:py-12 ${
+                className={`group relative border-b border-white/10 py-10 transition-all duration-500 group-hover:text-[#D99A4E] hover:bg-white/[0.025] lg:py-12 ${
                   item.featured ? "lg:py-14" : ""
                 }`}
               >
                 <div className="grid gap-8 lg:grid-cols-[90px_1fr_280px] xl:grid-cols-[100px_1fr_320px]">
                   {/* Number */}
                   <div className="flex items-start">
-                    <span className="font-mono text-xs text-white/25">
+                    <span className="font-mono text-xs text-[#D99A4E]">
                       {item.number}
                     </span>
                   </div>
