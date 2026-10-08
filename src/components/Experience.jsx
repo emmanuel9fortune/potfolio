@@ -163,7 +163,7 @@ export default function Experience() {
                       </span>
                     </div>
 
-                    <p className="mt-6 max-w-2xl text-sm leading-7 text-white/45">
+                    <p className="mt-6 w-full self-start text-left text-sm leading-7 text-white/45">
                       {item.description}
                     </p>
 

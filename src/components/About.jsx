@@ -58,28 +58,31 @@ export default function About() {
         {/* =====================================================
             HEADER
         ===================================================== */}
-        <div className="grid gap-12 lg:grid-cols-[0.3fr_1fr]">
+        <div className="grid gap-14 lg:grid-cols-[0.8fr_1.5fr] lg:gap-20">
 
-          <div className="text-center">
+          {/* LEFT */}
+          <div className="text-left">
             <p className="text-[11px] font-medium uppercase tracking-[0.3em] text-white/30">
-                About me
+              About me
             </p>
 
-            <div className="mx-auto mt-6 h-px w-16 bg-white/20" />
+            <div className="mt-6 h-px w-16 bg-white/20" />
 
-            <h2 className="mx-auto mt-8 max-w-5xl text-[clamp(2.8rem,6vw,6.5rem)] font-medium leading-[0.92] tracking-[-0.06em] text-white">
-                I build digital products
-                <span className="text-white/25">
+            <h2 className="mt-8 max-w-xl pt-10 text-[clamp(2.8rem,6vw,6.5rem)] font-medium leading-[0.92] tracking-[-0.06em] text-white">
+              I build digital products
+              <span className="text-white/25">
                 {" "}
                 where design meets engineering.
-                </span>
+              </span>
             </h2>
-            </div>
+          </div>
 
-          <div>
+          {/* RIGHT */}
+          <div className="w-full">
+            <div className="flex w-full flex-col items-start gap-8 lg:ml-auto lg:w-[65%]">
 
-            <div className="mt-12 grid gap-8 md:grid-cols-[1fr_0.7fr]">
-              <p className="max-w-2xl text-lg leading-8 text-white/55">
+              {/* MAIN DESCRIPTION */}
+              <p className="w-full max-w-2xl text-left text-base leading-7 text-white/55 sm:text-lg sm:leading-8">
                 I'm a software developer who enjoys turning ideas into
                 products people can actually use. I care about the details
                 most people don't notice — the interaction that feels natural,
@@ -87,12 +90,12 @@ export default function About() {
                 everything running behind the scenes.
               </p>
 
-              <div className="flex items-end">
-                <p className="max-w-sm text-sm leading-7 text-white/30">
-                  My work sits between product thinking, interface design and
-                  software engineering.
-                </p>
-              </div>
+              {/* RIGHT DESCRIPTION */}
+              <p className="w-full max-w-sm text-left text-sm leading-7 text-white/30">
+                My work sits between product thinking, interface design and
+                software engineering.
+              </p>
+
             </div>
           </div>
 

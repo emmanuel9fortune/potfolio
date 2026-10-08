@@ -49,17 +49,17 @@ export default function Projects() {
                 </div>
               </div>
 
-              <div className="flex items-start justify-between gap-5">
-                <div>
-                  <span className="mb-3 block text-xs text-white/25">
+              <div className="flex items-start justify-between gap-5 w-full">
+                <div className="w-full flex flex-col items-start justify-start gap-3 text-left">
+                  <span className="mb-3 block w-full text-xs text-white/25">
                     {project.number}
                   </span>
 
-                  <h3 className="text-3xl font-medium tracking-tight text-white">
+                  <h3 className="w-full text-left text-3xl font-medium tracking-tight text-white">
                     {project.title}
                   </h3>
 
-                  <p className="mt-3 max-w-md text-sm leading-6 text-white/40">
+                  <p className="mt-3 w-full max-w-md text-left text-sm leading-6 text-white/40">
                     {project.description}
                   </p>
                 </div>
