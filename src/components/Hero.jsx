@@ -84,7 +84,7 @@ export default function Hero() {
           </div>
 
           {/* ================= RIGHT ================= */}
-          <div className="flex flex-col lg:pb-2">
+          <div className="flex flex-col items-center lg:pb-2">
 
             <p className="max-w-[360px] text-base leading-7 text-white/45 md:text-lg md:leading-8">
               {portfolio.intro}

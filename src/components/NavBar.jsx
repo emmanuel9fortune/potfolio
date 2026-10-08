@@ -14,12 +14,12 @@ export default function Navbar() {
 
   return (
     <header className="fixed left-0 top-0 z-50 w-full px-5 py-5">
-      <nav className="mx-auto flex max-w-7xl items-center justify-between rounded-[15px] border border-white/10 bg-black/70 px-5 py-3 backdrop-blur-xl">
+      <nav className="mx-auto flex max-w-7xl items-center justify-between rounded-[15px] border border-white/10 bg-black/70 backdrop-blur-xl h-20 px-5 transition duration-300">
         <a
           href="#"
           className="text-sm font-bold tracking-tight text-white"
         >
-          <img src="/logo.png" alt="Logo" className="h-10 w-10" />
+          <img src="/mlogo.png" alt="Logo" className="h-18 w-35" />
         </a>
 
         <div className="hidden items-center gap-8 md:flex">
