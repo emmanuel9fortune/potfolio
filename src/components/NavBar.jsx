@@ -19,7 +19,7 @@ export default function Navbar() {
           href="#"
           className="text-sm font-bold tracking-tight text-white"
         >
-          EF<span className="text-white/30">.</span>
+          <img src="/logo.png" alt="Logo" className="h-10 w-10" />
         </a>
 
         <div className="hidden items-center gap-8 md:flex">
