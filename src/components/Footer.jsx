@@ -5,8 +5,8 @@ export default function Footer() {
   return (
     <footer className="px-6 pb-8 pt-20">
       <div className="mx-auto max-w-7xl border-t border-white/10 pt-8">
-        <div className="flex flex-col justify-between gap-6 md:flex-row md:items-center">
-          <div>
+        <div className="flex flex-col justify-between gap-6 md:flex-row md:items-center" >
+          <div data-aos="fade-left">
             <p className="font-medium text-white">
               {portfolio.name}
             </p>
@@ -16,7 +16,7 @@ export default function Footer() {
             </p>
           </div>
 
-          <div className="flex items-center gap-3">
+          <div className="flex items-center gap-3" data-aos="fade-right">
             <a
               href={portfolio.socials.github}
               className="rounded-full border border-white/10 p-3 text-white/40 transition hover:text-white"

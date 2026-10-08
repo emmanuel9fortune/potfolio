@@ -12,7 +12,7 @@ export default function Hero() {
       <div className="relative mx-auto flex min-h-screen w-full max-w-7xl flex-col justify-center px-6 pb-20 pt-32">
 
         {/* Availability */}
-        <div className="mb-14 flex items-center gap-3">
+        <div className="mb-14 flex items-center gap-3" data-aos="fade-left">
           <span className="relative flex h-2.5 w-2.5">
             <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-emerald-400 opacity-60" />
             <span className="relative inline-flex h-2.5 w-2.5 rounded-full bg-emerald-400" />
@@ -29,7 +29,7 @@ export default function Hero() {
           {/* ================= LEFT ================= */}
           <div className="min-w-0">
 
-            <p className="mb-6 text-sm font-medium text-white/35">
+            <p className="mb-6 text-sm font-medium text-white/35" data-aos="fade-up">
               {portfolio.role}
               <span className="mx-2 text-white/15">/</span>
               {portfolio.location}
@@ -37,15 +37,15 @@ export default function Hero() {
 
             <h1 className="max-w-[850px] text-[clamp(4rem,8.5vw,8.5rem)] font-semibold leading-[0.82] tracking-[-0.075em] text-white">
 
-              <span className="block">
+              <span className="block" data-aos="fade-up">
                 Building
               </span>
 
-              <span className="block text-[#D99A4E]">
+              <span className="block text-[#D99A4E]" data-aos="fade-up">
                 digital
               </span>
 
-              <span className="block">
+              <span className="block" data-aos="fade-up">
                 experiences.
               </span>
 
@@ -62,7 +62,7 @@ export default function Hero() {
             <div className="absolute -inset-10 rounded-[3rem] border border-white/[0.035]" />
 
             {/* Image */}
-            <div className="relative aspect-[3/4] overflow-hidden rounded-[2rem] border border-white/10 bg-[#111]">
+            <div className="relative aspect-[3/4] overflow-hidden rounded-[2rem] border border-white/10 bg-[#111]" data-aos="fade-up">
 
               <img
                 src="/profile.jpg"
@@ -86,7 +86,7 @@ export default function Hero() {
           {/* ================= RIGHT ================= */}
           <div className="flex flex-col items-center lg:pb-2">
 
-            <p className="max-w-[360px] text-base leading-7 text-white/45 md:text-lg md:leading-8">
+            <p className="max-w-[360px] text-base leading-7 text-white/45 md:text-lg md:leading-8" data-aos="fade-up">
               {portfolio.intro}
             </p>
 
@@ -96,6 +96,7 @@ export default function Hero() {
               <a
                 href="#work"
                 className="group inline-flex items-center gap-2 rounded-full bg-white px-6 py-3 text-sm font-semibold text-black transition duration-300 hover:bg-white/85"
+                data-aos="fade-up"
               >
                 View my work
 
@@ -108,6 +109,7 @@ export default function Hero() {
               <a
                 href="#contact"
                 className="inline-flex items-center rounded-full border border-white/15 px-6 py-3 text-sm font-medium text-white/80 transition duration-300 hover:border-white/35 hover:text-white"
+                data-aos="fade-up"
               >
                 Contact me
               </a>
@@ -115,7 +117,7 @@ export default function Hero() {
             </div>
 
             {/* Socials */}
-            <div className="mt-8 flex items-center gap-2">
+            <div className="mt-8 flex items-center gap-2" data-aos="fade-up">
 
               <a
                 href={portfolio.socials.github}

@@ -6,7 +6,7 @@ export default function Projects() {
     <section id="work" className="bg-[#080808] px-6 py-32">
       <div className="mx-auto max-w-7xl">
         <div className="mb-16 flex flex-col justify-between gap-5 md:flex-row md:items-end">
-          <div>
+          <div data-aos="fade-left">
             <p className="mb-4 text-xs uppercase tracking-[0.3em] text-white/30">
               Selected work
             </p>
@@ -18,7 +18,7 @@ export default function Projects() {
             </h2>
           </div>
 
-          <p className="max-w-sm text-sm leading-7 text-white/40">
+          <p className="max-w-sm text-sm leading-7 text-white/40" data-aos="fade-right">
             A selection of products and systems I've worked on across web,
             mobile and backend development.
           </p>
@@ -31,6 +31,7 @@ export default function Projects() {
               className={`group relative overflow-hidden rounded-[2rem] border border-white/10 bg-[#0d0d0d] p-7 transition duration-500 hover:border-white/20 ${
                 index === 0 ? "lg:row-span-2" : ""
               }`}
+              data-aos="zoom-in"
             >
               <div
                 className={`relative mb-8 overflow-hidden rounded-2xl border border-white/10 bg-[#151515] ${

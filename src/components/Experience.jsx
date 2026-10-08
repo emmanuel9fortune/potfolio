@@ -94,7 +94,7 @@ export default function Experience() {
       <div className="relative mx-auto max-w-7xl">
         {/* Header */}
         <div className="mb-20 grid gap-8 lg:grid-cols-[1fr_420px] lg:items-end">
-          <div>
+          <div data-aos="fade-up">
             <p className="text-[11px] font-medium uppercase tracking-[0.3em] text-white/30">
               Experience
             </p>
@@ -109,7 +109,7 @@ export default function Experience() {
             </h2>
           </div>
 
-          <div className="lg:pb-2">
+          <div className="lg:pb-2" data-aos="fade-up">
             <p className="max-w-md text-sm leading-7 text-white/45">
               My experience is shaped by building real products across
               marketplaces, fintech, mobile, desktop and business systems.
@@ -130,6 +130,7 @@ export default function Experience() {
                 className={`group relative border-b border-white/10 py-10 transition-all duration-500 group-hover:text-[#D99A4E] hover:bg-white/[0.025] lg:py-12 ${
                   item.featured ? "lg:py-14" : ""
                 }`}
+                data-aos="fade-up"
               >
                 <div className="grid gap-8 lg:grid-cols-[90px_1fr_280px] xl:grid-cols-[100px_1fr_320px]">
                   {/* Number */}
@@ -203,7 +204,7 @@ export default function Experience() {
         </div>
 
         {/* Bottom statement */}
-        <div className="mt-24 grid gap-8 border-t border-white/10 pt-10 md:grid-cols-2">
+        <div className="mt-24 grid gap-8 border-t border-white/10 pt-10 md:grid-cols-2" data-aos="fade-up">
           <div>
             <p className="text-[10px] uppercase tracking-[0.3em] text-white/25">
               Approach

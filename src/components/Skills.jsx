@@ -2,7 +2,7 @@ import { portfolio } from "../data/portfolio";
 
 export default function Skills() {
   return (
-    <section className="portfolio-grid border-y border-white/10 px-6 py-24">
+    <section className="portfolio-grid border-y border-white/10 px-6 py-24" data-aos="fade-up">
       <div className="mx-auto max-w-7xl">
         <div className="mb-12">
           <p className="text-xs uppercase tracking-[0.3em] text-white/30">

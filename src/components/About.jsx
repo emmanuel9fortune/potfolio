@@ -61,7 +61,7 @@ export default function About() {
         <div className="grid gap-14 lg:grid-cols-[0.8fr_1.5fr] lg:gap-20">
 
           {/* LEFT */}
-          <div className="text-left">
+          <div className="text-left" data-aos="fade-left">
             <p className="text-[11px] font-medium uppercase tracking-[0.3em] text-white/30">
               About me
             </p>
@@ -78,7 +78,7 @@ export default function About() {
           </div>
 
           {/* RIGHT */}
-          <div className="w-full">
+          <div className="w-full" data-aos="fade-right">
             <div className="flex w-full flex-col items-start gap-8 lg:ml-auto lg:w-[65%]">
 
               {/* MAIN DESCRIPTION */}
@@ -107,7 +107,7 @@ export default function About() {
         <div className="mt-28 grid gap-5 lg:grid-cols-[1.1fr_0.9fr]">
 
           {/* Visual */}
-          <div className="group relative min-h-[500px] overflow-hidden rounded-[2rem] border border-white/10 bg-[#101010]">
+          <div className="group relative min-h-[500px] overflow-hidden rounded-[2rem] border border-white/10 bg-[#101010]" data-aos="zoom-in">
 
             <div className="absolute inset-0 opacity-40">
               <div className="absolute left-[20%] top-[15%] h-64 w-64 rounded-full border border-white/10" />
@@ -150,7 +150,7 @@ export default function About() {
           </div>
 
           {/* Philosophy */}
-          <div className="flex flex-col justify-between rounded-[2rem] border border-white/10 bg-[#101010] p-8 md:p-10">
+          <div className="flex flex-col justify-between rounded-[2rem] border border-white/10 bg-[#101010] p-8 md:p-10" data-aos="zoom-in">
 
             <div>
               <div className="flex h-11 w-11 items-center justify-center rounded-full border border-white/10">
@@ -200,7 +200,7 @@ export default function About() {
 
           <div className="mb-12 flex items-end justify-between">
 
-            <div>
+            <div data-aos="fade-left">
               <p className="text-[11px] uppercase tracking-[0.3em] text-white/30">
                 What I do
               </p>
@@ -210,7 +210,7 @@ export default function About() {
               </h3>
             </div>
 
-            <span className="hidden text-[10px] uppercase tracking-[0.25em] text-white/20 md:block">
+            <span className="hidden text-[10px] uppercase tracking-[0.25em] text-white/20 md:block" data-aos="fade-right">
               04 disciplines
             </span>
 
@@ -225,6 +225,7 @@ export default function About() {
                 <div
                   key={item.number}
                   className="group grid gap-6 border-b border-white/10 py-8 transition hover:bg-white/[0.015] md:grid-cols-[80px_220px_1fr_auto] md:items-center"
+                  data-aos="fade-up"
                 >
 
                   <span className="text-xs text-white/20">
@@ -261,7 +262,7 @@ export default function About() {
         {/* =====================================================
             NUMBERS
         ===================================================== */}
-        <div className="mt-32 grid border-y border-white/10 sm:grid-cols-3">
+        <div className="mt-32 grid border-y border-white/10 sm:grid-cols-3" data-aos="fade-up">
 
           <div className="border-b border-white/10 px-6 py-10 sm:border-b-0 sm:border-r">
             <p className="text-5xl font-medium tracking-[-0.05em] text-white">
@@ -300,7 +301,7 @@ export default function About() {
         ===================================================== */}
         <div className="mt-32 grid gap-8 lg:grid-cols-[1fr_auto] lg:items-end">
 
-          <div className="max-w-2xl">
+          <div className="max-w-2xl" data-aos="fade-left">
             <p className="text-[11px] w-full uppercase tracking-[0.3em] text-white/25">
               Philosophy
             </p>
@@ -314,6 +315,7 @@ export default function About() {
           <a
             href="#contact"
             className="group inline-flex items-center gap-3 text-sm font-medium text-white/60 transition hover:text-white"
+            data-aos="fade-right"
           >
             Work with me
 

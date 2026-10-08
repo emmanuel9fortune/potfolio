@@ -2,7 +2,7 @@ import { ArrowUpRight, Mail } from "lucide-react";
 
 export default function Contact() {
   return (
-    <section id="contact" className="px-6 py-24 md:py-32">
+    <section id="contact" className="px-6 py-24 md:py-32" data-aos="zoom-in">
       <div className="mx-auto max-w-7xl">
         <div className="relative overflow-hidden rounded-[2.5rem] border border-white/10 bg-[#e4e4e4]/70 px-7 py-14 text-black md:px-16 md:py-20">
 
@@ -27,7 +27,7 @@ export default function Contact() {
           <div className="relative z-10">
 
             {/* Label */}
-            <div className="flex items-center gap-3">
+            <div className="flex items-center gap-3" data-aos="fade-left" data-aos-delay="100">
               <span className="h-2 w-2 rounded-full bg-black" />
 
               <p className="text-xs font-semibold uppercase tracking-[0.3em] text-black/50">
@@ -36,14 +36,14 @@ export default function Contact() {
             </div>
 
             {/* Heading */}
-            <p className="mt-8 pb-10 w-full text-[70px] font-bold leading-[60px]">
+            <p className="mt-8 pb-10 w-full text-[70px] font-bold leading-[60px]" data-aos="fade-up" data-aos-delay="200">
               Let's build
               <br />
                 <span className="text-[#D99A4E]"> something great.</span>
             </p>
 
             {/* Description */}
-            <p className="mt-8 w-full text-base leading-[30px] text-black/50 text-[20px] font-semibold">
+            <p className="mt-8 w-full text-base leading-[30px] text-black/50 text-[20px] font-semibold" data-aos="fade-up" data-aos-delay="300">
               Have an idea, project, or product you'd like to bring to life? <br/>
               I'm always interested in working on meaningful digital
               experiences.
@@ -53,6 +53,8 @@ export default function Contact() {
             <a
               href="mailto:hello@example.com"
               className="group mt-10 inline-flex items-center gap-3 rounded-full bg-black px-6 py-4 text-sm font-semibold text-white transition duration-300 hover:bg-black/80"
+              data-aos="fade-up"
+              data-aos-delay="400"
             >
               <Mail size={17} />
 
@@ -67,7 +69,7 @@ export default function Contact() {
           </div>
 
           {/* Bottom metadata */}
-          <div className="relative z-10 mt-16 flex flex-col gap-4 border-t border-black/10 pt-5 text-[10px] font-medium uppercase tracking-[0.2em] text-black/35 sm:flex-row sm:items-center sm:justify-between">
+          <div className="relative z-10 mt-16 flex flex-col gap-4 border-t border-black/10 pt-5 text-[10px] font-medium uppercase tracking-[0.2em] text-black/35 sm:flex-row sm:items-center sm:justify-between" data-aos="fade-up" data-aos-delay="500">
             <span>Available for freelance work</span>
 
             <span>Let's create something meaningful</span>

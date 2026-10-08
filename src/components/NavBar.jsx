@@ -13,7 +13,7 @@ export default function Navbar() {
   ];
 
   return (
-    <header className="fixed left-0 top-0 z-50 w-full px-5 py-5">
+    <header className="fixed left-0 top-0 z-50 w-full px-5 py-5" data-aos="fade-up">
       <nav className="mx-auto flex max-w-7xl items-center justify-between rounded-[15px] border border-white/10 bg-black/70 backdrop-blur-xl h-20 px-5 transition duration-300">
         <a
           href="#"
