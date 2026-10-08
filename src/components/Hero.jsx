@@ -38,15 +38,15 @@ export default function Hero() {
             <h1 className="max-w-[850px] text-[clamp(4rem,8.5vw,8.5rem)] font-semibold leading-[0.82] tracking-[-0.075em] text-white">
 
               <span className="block" data-aos="fade-up">
-                Building
+                Building digital
               </span>
 
               <span className="block text-[#D99A4E]" data-aos="fade-up">
-                digital
+                systems that move
               </span>
 
               <span className="block" data-aos="fade-up">
-                experiences.
+                businesses forward.
               </span>
 
             </h1>
@@ -62,25 +62,25 @@ export default function Hero() {
             <div className="absolute -inset-10 rounded-[3rem] border border-white/[0.035]" />
 
             {/* Image */}
-            <div className="relative aspect-[3/4] overflow-hidden rounded-[2rem] border border-white/10 bg-[#111]" data-aos="fade-up">
+            <div className="relative flex items-center justify-center">
+              <div className="absolute h-[420px] w-[420px] rounded-full bg-[#D99A4E]/10 blur-[100px]" />
 
               <img
-                src="/hero.png"
-                alt="Elvn Fortune"
-                className="h-full w-full object-cover grayscale transition duration-700 ease-out hover:scale-105 hover:grayscale-0"
+                src="/3d.png"
+                alt="Company logo"
+                className="
+                  relative
+                  w-[280px]
+                  object-contain
+                  mix-blend-screen
+                  transition-transform
+                  duration-700
+                  hover:scale-105
+                  rounded-[2.5rem]
+                "
               />
-
-              {/* Bottom fade */}
-              <div className="absolute inset-x-0 bottom-0 h-1/3 bg-gradient-to-t from-black/60 to-transparent" />
-
-              {/* Label */}
-              <div className="absolute bottom-4 left-4">
-                <div className="rounded-full border border-white/10 bg-black/50 px-3 py-1.5 text-[9px] font-medium uppercase tracking-[0.2em] text-white/50 backdrop-blur-md">
-                  Developer
-                </div>
-              </div>
-
             </div>
+            
           </div>
 
           {/* ================= RIGHT ================= */}

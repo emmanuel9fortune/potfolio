@@ -1,10 +1,6 @@
 import {
   ArrowDownRight,
   ArrowUpRight,
-  Code2,
-  Layers3,
-  Smartphone,
-  Server,
   Sparkles,
 } from "lucide-react";
 import { portfolio } from "../data/portfolio";
@@ -12,36 +8,24 @@ import { portfolio } from "../data/portfolio";
 export default function About() {
   const capabilities = [
     {
-      icon: Code2,
       number: "01",
-      title: "Frontend",
-      description:
-        "Interfaces that feel fast, intentional and effortless to use.",
-      technologies: "React · JavaScript · Tailwind",
+      title: "Innovation",
+      text: "We turn emerging technology into practical business solutions.",
     },
     {
-      icon: Server,
       number: "02",
-      title: "Backend",
-      description:
-        "Reliable APIs and server-side systems designed around real-world needs.",
-      technologies: "Node.js · Express · MongoDB",
+      title: "Reliability",
+      text: "We build systems businesses can depend on every day.",
     },
     {
-      icon: Smartphone,
       number: "03",
-      title: "Mobile",
-      description:
-        "Mobile experiences that bring the same attention to detail beyond the browser.",
-      technologies: "React Native",
+      title: "Scalability",
+      text: "Our architecture is designed to grow with the organizations we serve.",
     },
     {
-      icon: Layers3,
       number: "04",
-      title: "Full Stack",
-      description:
-        "From the first interface to the database and everything connecting them.",
-      technologies: "Architecture · APIs · Deployment",
+      title: "Impact",
+      text: "Technology matters when it creates measurable value.",
     },
   ];
 
@@ -63,16 +47,16 @@ export default function About() {
           {/* LEFT */}
           <div className="text-left" data-aos="fade-left">
             <p className="text-[11px] font-medium uppercase tracking-[0.3em] text-white/30">
-              About me
+              WHO WE ARE
             </p>
 
             <div className="mt-6 h-px w-16 bg-white/20" />
 
             <h2 className="mt-8 max-w-xl pt-10 text-[clamp(2.8rem,6vw,6.5rem)] font-medium leading-[0.92] tracking-[-0.06em] text-white">
-              I build digital products
+              Technology built around
               <span className="text-white/25">
                 {" "}
-                where design meets engineering.
+              the way businesses operate.
               </span>
             </h2>
           </div>
@@ -83,17 +67,17 @@ export default function About() {
 
               {/* MAIN DESCRIPTION */}
               <p className="w-full max-w-2xl text-left text-base leading-7 text-white/55 sm:text-lg sm:leading-8">
-                I'm a software developer who enjoys turning ideas into
-                products people can actually use. I care about the details
-                most people don't notice — the interaction that feels natural,
-                the layout that makes sense and the system that keeps
-                everything running behind the scenes.
+                We are a technology-driven enterprise focused on
+                building digital products, platforms and systems
+                that solve real business problems.
               </p>
 
               {/* RIGHT DESCRIPTION */}
               <p className="w-full max-w-sm text-left text-sm leading-7 text-white/30">
-                My work sits between product thinking, interface design and
-                software engineering.
+                From strategy and product development to deployment
+                and ongoing improvement, we bring technology,
+                design and engineering together to create solutions
+                that scale.
               </p>
 
             </div>
@@ -120,7 +104,7 @@ export default function About() {
             {/* Profile image */}
             <img
               src="/profile.jpg"
-              alt="Emmanuel Fortune"
+              alt="Elvn Enterprise"
               className="absolute inset-0 h-full w-full object-cover opacity-60 grayscale transition duration-700 group-hover:scale-105 group-hover:opacity-80 group-hover:grayscale-0"
             />
 
@@ -131,11 +115,11 @@ export default function About() {
 
               <div>
                 <p className="text-[10px] uppercase tracking-[0.25em] text-white/40">
-                  Emmanuel Fortune
+                  Elvn Enterprise
                 </p>
 
                 <p className="mt-2 text-2xl font-medium tracking-tight text-white">
-                  Software Developer
+                  Software Development Team
                 </p>
               </div>
 
@@ -219,8 +203,6 @@ export default function About() {
           <div className="border-t border-white/10">
 
             {capabilities.map((item) => {
-              const Icon = item.icon;
-
               return (
                 <div
                   key={item.number}
@@ -233,11 +215,6 @@ export default function About() {
                   </span>
 
                   <div className="flex items-center gap-4">
-                    <Icon
-                      size={19}
-                      strokeWidth={1.5}
-                      className="text-white/30 transition group-hover:text-white"
-                    />
 
                     <h4 className="text-xl font-medium text-white">
                       {item.title}
@@ -245,13 +222,8 @@ export default function About() {
                   </div>
 
                   <p className="max-w-lg text-sm leading-6 text-white/35">
-                    {item.description}
+                    {item.text}
                   </p>
-
-                  <span className="text-xs text-white/20 md:text-right">
-                    {item.technologies}
-                  </span>
-
                 </div>
               );
             })}
@@ -266,7 +238,7 @@ export default function About() {
 
           <div className="border-b border-white/10 px-6 py-10 sm:border-b-0 sm:border-r">
             <p className="text-5xl font-medium tracking-[-0.05em] text-white">
-              03+
+              02+
             </p>
 
             <p className="mt-3 text-[10px] uppercase tracking-[0.25em] text-white/25">

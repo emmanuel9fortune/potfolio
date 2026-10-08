@@ -6,6 +6,10 @@ import Skills from "../components/Skills";
 import Experience from "../components/Experience";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
+import Capabilities from "../components/Capabilities";
+import SelectedWork from "../components/SelectedWork";
+import Industries from "../components/Industries";
+import WhyUs from "../components/WhyUs";
 
 function Home() {
   return (
@@ -17,7 +21,11 @@ function Home() {
         <Projects />
         <About />
         <Skills />
+        <Capabilities/>
+        <Industries/>
         <Experience />
+        <SelectedWork/>
+        <WhyUs/>
         <Contact />
       </main>
 

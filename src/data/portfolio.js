@@ -4,7 +4,7 @@ export const portfolio = {
   location: "Nigeria",
 
   intro:
-    "I design and build modern digital products with a focus on clean interfaces, reliable systems, and exceptional user experiences.",
+    "We design, develop and deploy modern digital solutions for businesses ready to operate smarter, scale faster and serve their customers better.",
 
   about:
     "I'm a software developer focused on building useful products from idea to production. I work across frontend, backend and mobile applications, combining thoughtful design with solid engineering.",
