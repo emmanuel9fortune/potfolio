@@ -300,8 +300,8 @@ export default function About() {
         ===================================================== */}
         <div className="mt-32 grid gap-8 lg:grid-cols-[1fr_auto] lg:items-end">
 
-          <div>
-            <p className="text-[11px] uppercase tracking-[0.3em] text-white/25">
+          <div className="max-w-2xl">
+            <p className="text-[11px] w-full uppercase tracking-[0.3em] text-white/25">
               Philosophy
             </p>
 
