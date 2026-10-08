@@ -65,8 +65,8 @@ export default function Hero() {
             <div className="relative aspect-[3/4] overflow-hidden rounded-[2rem] border border-white/10 bg-[#111]" data-aos="fade-up">
 
               <img
-                src="/profile.jpg"
-                alt="Emmanuel Fortune"
+                src="/hero.png"
+                alt="Elvn Fortune"
                 className="h-full w-full object-cover grayscale transition duration-700 ease-out hover:scale-105 hover:grayscale-0"
               />
 
