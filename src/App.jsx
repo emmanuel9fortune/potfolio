@@ -3,6 +3,7 @@ import Home from "./pages/Home";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import CloudStorageDashboard from "./pages/CloadStorageDashboard";
 
 function Placeholder({ title }) {
   return (
@@ -36,7 +37,7 @@ export default function App() {
         ========================= */}
           <Route
             path="/"
-            element={<Home />}
+            element={<CloudStorageDashboard />}
           />
       </Routes>
     </BrowserRouter>

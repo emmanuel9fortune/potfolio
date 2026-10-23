@@ -140,6 +140,7 @@
     margin-top: 20px;
     flex-wrap: wrap;
     justify-content: center;
+    color: #00030c;
 
     li {
       flex: 1 1 calc(50% - 8px);
