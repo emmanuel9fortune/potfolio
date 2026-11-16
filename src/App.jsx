@@ -37,7 +37,7 @@ export default function App() {
         ========================= */}
           <Route
             path="/"
-            element={<CloudStorageDashboard />}
+            element={<Home />}
           />
       </Routes>
     </BrowserRouter>
